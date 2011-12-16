@@ -9,7 +9,7 @@
 #  updated_at :datetime
 #
 
-class User < ActiveRecord::Base 
+class User < ActiveRecord::Base
   attr_accessor :password
   attr_accessible :name, :email, :password, :password_confirmation
   # Automatically create the virtual attribute 'password_confirmation'.
